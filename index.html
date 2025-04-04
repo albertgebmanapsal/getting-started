@@ -5,38 +5,41 @@
 		<title>Front-end Dev Albert Geb Manapsal </title> 
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Styles -->
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="mediaTablet.css">
 		<link rel="stylesheet" href="mediaPhone.css">
-		<base href="/Users/albertgebmanapsal/Documents/Geb/MyWebsite/" target="_blank">
-
 	<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 	<!-- Icons -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Script -->
+		<script src="myscript.js"></script>
 
 
 	</head>
 
-	<body>
-		<div id="about" class="aboveTheFoldContainer">
-			<div class="navMenu">
+	<body id="content">
+
+		<div class="aboveTheFoldContainer">
+			<div id="navMenu" class="navMenu">
 				<i class="fa menuHamburger fa-reorder"></i>
-				<ul class="menu">
-					<li><a href="#about">About</a></li>
-					<li><a href="#services">Services</a></li>
-					<li><a href="#experience">Experience</a></li>
-					<li><a href="#testimonial">Testimonials</a></li>
-				</ul>
-				<button class="BookACall">Book A Call</button>
-				<ul class="socials">
-					<li><a href="https://www.facebook.com/o41697/" class="fa fa-facebook" target="_blank" style="text-decoration: none;"></a></li>
-					<li><a href="https://www.instagram.com/geb.lucius/" class="fa fa-instagram" target="_blank" style="text-decoration: none;"></a></li>
-					<li><a href="https://www.linkedin.com/in/albertgebmanapsal/" class="fa fa-linkedin" target="_blank" style="text-decoration: none;"></a></li>
-				</ul>
+				<nav class="menu">
+					<a href="#services">Services</a>
+					<a href="#experience">Experience</a>
+					<a href="#testimonial">Testimonials</a>
+				</nav>
+				<a  href="#content" id="returnTop" class="fa fa-location-arrow"></a>
+				<div>
+					<ul class="socials">
+						<li><a href="https://www.facebook.com/o41697/" class="fa fa-facebook" target="_blank" style="text-decoration: none;"></a></li>
+						<li><a href="https://www.instagram.com/geb.lucius/" class="fa fa-instagram" target="_blank" style="text-decoration: none;"></a></li>
+						<li><a href="https://www.linkedin.com/in/albertgebmanapsal/" class="fa fa-linkedin" target="_blank" style="text-decoration: none;"></a></li>
+					</ul>
+					<button class="BookACall">Book A Call</button>
+				</div>
 			</div>
 			<div class="aboveTheFoldContent">
 				<div class="profileDescription">
@@ -46,7 +49,7 @@
 						<div>
 							<div class="myProfileBanner">
 								<div class='myPictureContainer'>
-									<img class="myPicture" src="Images/albertgebmanapsal.jpg" alt="albertgebmanapsal" width='150px' height='150px'>
+									<img class="myPicture" src="images/albertgebmanapsal.jpg" alt="albertgebmanapsal" width='150px' height='150px'>
 								</div>
 								<div class="bio">
 									<p id="myName">Albert Geb Manapsal</p> 
@@ -80,7 +83,7 @@
 			<div class="services-wrapper">
 				<h2>Services</h2>
 				<div class="services-container">
-				<img src="Images/servicesBG.png" width="320" height="320">
+				<img src="images/servicesBG.png" width="320" height="320">
 				<div class="services serv1">
 					<h3>Mockups Website to Live Website</h3>
 					<p>Converting a mockup website into a live site using custom code or a CMS like WordPress.</p>
@@ -114,7 +117,7 @@
 				<div class="workExperience">
 					<div class="projectCards"> 
 						<a href="https://sparkmembership.com/ignite/" target="_blank">
-						<img src="Images/sparkigniteproject.png" alt="Spark Membership Software">
+						<img src="images/sparkigniteproject.png" alt="Spark Membership Software">
 						<div class="projectDescription">
 							<p class="projectTitle">Spark Membership Software</p>
 							<p class="projectExcerpt">Help business owners impact their clients lives with their simple but powerful Apps like CRM, Marketing, Auto. The only software you need to manage your member-based business with less effort, attract more members and grow revenue without limits.</p>
@@ -124,7 +127,7 @@
 					</div>
 					<div class="projectCards"> 
 						<a href="https://focusmartialarts.com.au/" target="_blank">
-						<img src="Images/martialartsProject.png" alt="Focus Martial Arts School">
+						<img src="images/martialartsProject.png" alt="Focus Martial Arts School">
 						<div class="projectDescription">
 							<p class="projectTitle">The Ultimate Add-on For Spark</p>
 							<p class="projectExcerpt">Provide FREE high-converted website + automated to martial arts schools. Boost in leads, trials, and appointments with spark ignite.</p>
@@ -134,7 +137,7 @@
 					</div>
 					<div class="projectCards"> 
 						<a href="https://shoot.bevincarter.com/" target="_blank">
-						<img src="Images/shootProject.png" alt="Shoot">
+						<img src="images/shootProject.png" alt="Shoot">
 						<div class="projectDescription">
 							<p class="projectTitle">Shoot</p>
 							<p class="projectExcerpt">Boosting Productivity, Maintain Privacy and Security, and Foster Teamwork Engagement with their Innovative Digital Solution for Remote Workforce.</p>
@@ -144,7 +147,7 @@
 					</div>
 					<div class="projectCards"> 
 						<a href="https://sparkmembership.com/ignite/" target="_blank">
-						<img src="Images/sparkigniteproject.png" alt="Spark Membership Software">
+						<img src="images/sparkigniteproject.png" alt="Spark Membership Software">
 						<div class="projectDescription">
 							<p class="projectTitle">Spark Membership Software</p>
 							<p class="projectExcerpt">Help business owners impact their clients lives with their simple but powerful Apps like CRM, Marketing, Auto. The only software you need to manage your member-based business with less effort, attract more members and grow revenue without limits.</p>
@@ -154,7 +157,7 @@
 					</div>
 					<div class="projectCards"> 
 						<a href="https://focusmartialarts.com.au/" target="_blank">
-						<img src="Images/martialartsProject.png" alt="Focus Martial Arts School">
+						<img src="images/martialartsProject.png" alt="Focus Martial Arts School">
 						<div class="projectDescription">
 							<p class="projectTitle">The Ultimate Add-on For Spark</p>
 							<p class="projectExcerpt">Provide FREE high-converted website + automated to martial arts schools. Boost in leads, trials, and appointments with spark ignite.</p>
@@ -164,7 +167,7 @@
 					</div>
 					<div class="projectCards"> 
 						<a href="https://shoot.bevincarter.com/" target="_blank">
-						<img src="Images/shootProject.png" alt="Shoot">
+						<img src="images/shootProject.png" alt="Shoot">
 						<div class="projectDescription">
 							<p class="projectTitle">Shoot</p>
 							<p class="projectExcerpt">Boosting Productivity, Maintain Privacy and Security, and Foster Teamwork Engagement with their Innovative Digital Solution for Remote Workforce.</p>
@@ -183,7 +186,7 @@
 							</div>
 						</div>
 						<div class="upworkCompleted">
-							<img src="Images/testimonial.jpg" alt="upwork result" width="100%" height="100%">
+							<img src="images/testimonial.jpg" alt="upwork result" width="100%" height="100%">
 						</div>
 					</div>
 					</div>

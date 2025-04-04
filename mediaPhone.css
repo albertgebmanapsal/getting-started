@@ -9,6 +9,10 @@
         padding:12px 14px;
 		margin: 12px 0;
 	}
+
+	.navMenu.scrolled {
+		padding: 0 10px;
+	}
 	/* END Navigation Bar */ 
 
 	h1 {
@@ -29,7 +33,7 @@
 		margin-bottom: -50px;
 	}
     .aboveTheFoldContainer {
-		padding: 0 0 300px;
+		padding: 100px 0 300px 0px;
 		background-size: contain, cover;
 		background-position: bottom, center;	
 	}
