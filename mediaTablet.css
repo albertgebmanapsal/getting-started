@@ -1,0 +1,115 @@
+@media only screen and (max-width:1024px) {
+	
+	/* Navigation Bar */ 
+	.navMenu {
+		padding: 20px;
+	}
+	.navMenu .menuHamburger {
+		display:block;
+		float: left;
+        font-size: 40px;
+		margin: 12px;
+		border-radius: 8px;
+	}
+	.menu {
+		display: none;
+	}
+
+	.navMenu .socials {
+		margin: 0px;
+	}
+	.BookACall {
+		font-size: 16px;
+		margin: 10px;
+	}
+	/* Above The Fold */
+
+	.aboveTheFoldContainer {
+		background-size: 50%, cover;
+	}
+
+	/* My Services */ 
+
+	.services-container img {
+		width: 250px;
+		height: 250px;
+	}
+
+
+	
+}
+
+@media only screen and (min-width: 1024px) {
+
+/* My Services */
+
+	.services-container img {
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -55%);
+	}
+	
+	.services {
+		width: 36%;
+	
+	}
+	.serv1, .serv2, .serv3, .serv4, .serv5, .serv6, .services-container img  {
+		margin: 0;
+		position: absolute;
+	}
+	.serv1 {
+		top: 25%;
+		left: 25%;
+		transform: translate(-35%, -25%);
+		border-radius: 32px 12px 32px 12px;
+		box-shadow: -20px -20px 20px 15px #410d550e;
+	
+	}
+	
+	.serv2 {
+		top: 55%;
+		left: 25%;
+		transform: translate(-75%, -55%);
+		border-radius: 32px 12px 32px 12px;
+		box-shadow: -35px 0px 20px 25px #410d5509;
+	
+	}
+	
+	.serv3 {
+		bottom: 25%;
+		left: 25%;
+		transform: translate(-35%, 75%);
+		border-radius: 32px 12px 32px 12px;
+		box-shadow: -20px 20px 20px 15px #410d5509;
+	
+	
+	}
+	
+	.serv4 {
+		top: 25%;
+		right: 25%;
+		transform: translate(35%, -25%);
+		border-radius: 12px 32px 12px 32px;
+		box-shadow: 20px -20px 20px 15px #410d5509;
+	
+	
+	}
+	
+	.serv5 {
+		top: 55%;
+		right: 25%;
+		transform: translate(75%, -55%);
+		border-radius: 12px 32px 12px 32px;
+		box-shadow: 35px 0px 20px 25px #410d5509;
+	
+	}
+	
+	.serv6 {
+		bottom: 25%;
+		right: 25%;
+		transform: translate( 35%, 75%);
+		border-radius: 12px 32px 12px 32px;
+		box-shadow: 20px 20px 20px 15px #410d5509;
+	
+	}
+}

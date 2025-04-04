@@ -1,0 +1,59 @@
+@media only screen and (max-width:767px) {
+	
+	/* START Navigation Bar */ 
+	.navMenu {
+		padding: 10px;
+
+	}
+    .BookACall {
+        padding:12px 14px;
+		margin: 12px 0;
+	}
+	/* END Navigation Bar */ 
+
+	h1 {
+		font-size: 36px;
+	}
+	
+	.myProfileBanner {
+		display: block;
+		justify-content: center;
+		padding: 0;
+		margin-top: 60px;
+	}
+	.myPicture {
+	margin-top: -100px;
+	}
+
+	.myPictureContainer {
+		margin-bottom: -50px;
+	}
+    .aboveTheFoldContainer {
+		padding: 0 0 300px;
+		background-size: contain, cover;
+		background-position: bottom, center;	
+	}
+
+	/* Work Experience */
+
+	.upwork {
+		width: 100%;
+		flex-direction: column-reverse;
+	}
+
+	.upwork div {
+		width: 100%;
+	}
+	
+	.projectCards {
+		grid-column-start: 1;
+		grid-column-end: 4;
+	}
+	
+}
+
+@media only screen and (max-width: 380px) {
+	.socials {
+		display: none;
+	}
+}
