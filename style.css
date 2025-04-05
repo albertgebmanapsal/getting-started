@@ -19,7 +19,7 @@ p, li {
 }
 
 
-/* SHOW GRID LINES 
+/* SHOW GRID LINES  
 div {
 	border: 1px solid red;
 	border-style: dashed;
@@ -88,7 +88,7 @@ div {
     height: 50px;
     width: 50px;
     margin-bottom: -60px;
-	margin-left: -30px;
+	margin-left: -49px;
     border-radius: 50px;
     justify-content: center;
     align-items: center;
@@ -140,6 +140,47 @@ div {
 
 /* END NAVIGATION */ 
 
+/* Bouncing Greetings START */
+
+.greetings {
+	display: flex;
+	gap: 10px;
+	font-size: 2rem;
+  }
+
+  .bounce {
+	font-size: 2.0rem;
+	font-weight: 800;
+	font-family: "Montserrat", sans-serif;
+	background: linear-gradient(to right, #EBD3F8, #AD49E1 ,#EBD3F8);
+	background-size: cover;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text; /* For Firefox */
+	color: transparent;
+	margin-bottom: -20px;
+  
+}
+
+  .bounce {
+	animation: bounce 1s ease-in-out infinite;
+	display: inline-block;
+  }
+
+  .bounce:nth-child(1) { animation-delay: 0s; }
+  .bounce:nth-child(2) { animation-delay: 0.2s; }
+  .bounce:nth-child(3) { animation-delay: 0.4s; }
+
+  @keyframes bounce {
+	0%, 100% {
+	  transform: translateY(0);
+	}
+	50% {
+	  transform: translateY(-20px);
+	}
+  }
+
+/* Bouncing Grettings END */
 
 .aboveTheFoldContent {
 	display: flex;
@@ -161,18 +202,7 @@ div {
 
 
 /* Above The Fold TOP Content */
-.greetings {
-		font-size: 2.0rem;
-		font-weight: 800;
-		font-family: "Montserrat", sans-serif;
-		background: linear-gradient(to right, #EBD3F8, #AD49E1 ,#EBD3F8);
-		background-size: cover;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-clip: text; /* For Firefox */
-		color: transparent;
-	  
-}
+
 h1 {
 	font-size: 42px;
 	line-height: 1.4;
@@ -278,7 +308,7 @@ h1 span {
 }
 
 @keyframes borderExpand {
-	0, 100% {
+	0%, 100% {
 	  transform: scale(0);
 	  opacity: 0;
 	}
@@ -286,20 +316,7 @@ h1 span {
 	  transform: scale(1);
 	  opacity: 1;
 	}
-  }
-/* .myPictureContainer::after {
-	content:"🟡 Available";
-	position: absolute;
-	top: -15px;
-	right: -45px;
-	background-color: #2E073F;
-	padding: 8px 10px;
-	border-radius: 15px;
-	font-size: 12px;
-	font-family: "Montserrat", sans-serif;
-	
-} */
-
+}
 
 .myProfileBanner ul li {
 	font-size: 12px;
@@ -318,6 +335,37 @@ h1 span {
 
 /* My services */
 
+.rotateGear {
+	animation: rotate 15s ease-in-out infinite alternate;
+}
+@keyframes rotate {
+	100% {
+	  transform: rotate(90deg);
+	}
+  }
+.squareDotsTopLeft {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	gap: 0;
+	fill: #ebd3f865;
+	transform: scale(3);
+	position: absolute;
+	top: 10%;
+	left: -12%;
+
+}
+
+.squareDotsBottomRight {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 0;
+	fill: #ebd3f84d;
+	transform: scale(3);
+	position: absolute;
+	bottom: 15%;
+	right:-10%;
+
+}
 .services-wrapper {
 	padding: 100px 25px;
 	max-width: 1440px;
@@ -346,8 +394,12 @@ h1 span {
 	border: 1px solid #2e073f24;
 	border-radius: 10px;
 	width: 90%;
-	background-color: #ac49e10f;
+	background-color: #FAF4FD;
 	box-shadow: 0 0 20px 10px #410d550e;
+}
+
+#services {
+	overflow: hidden;
 }
 
 /* Work Experience */
@@ -361,7 +413,7 @@ h1 span {
 }
 
 h2 {
-	color: #AD49E1;
+	color: #2E073F;
 	text-align: center;
 	font-size:	 48px;
 	line-height: 1.4;
