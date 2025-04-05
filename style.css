@@ -161,8 +161,20 @@ div {
 
 
 /* Above The Fold TOP Content */
+.greetings {
+		font-size: 2.0rem;
+		font-weight: 800;
+		font-family: "Montserrat", sans-serif;
+		background: linear-gradient(to right, #EBD3F8, #AD49E1 ,#EBD3F8);
+		background-size: cover;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text; /* For Firefox */
+		color: transparent;
+	  
+}
 h1 {
-	font-size: 46px;
+	font-size: 42px;
 	line-height: 1.4;
 	font-weight: 900;
 }
@@ -170,7 +182,6 @@ h1 {
 h1 span {
 	color: #AD49E1;
 }
-
 
 .profileDescription {
 	max-width: 605px;
