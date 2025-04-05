@@ -4,17 +4,8 @@
 	.navMenu {
 		padding: 20px;
 	}
-	.navMenu .menuHamburger {
-		display:block;
-		float: left;
-        font-size: 40px;
-		margin: 12px;
-		border-radius: 8px;
-	}
-	.menu {
-		display: none;
-	}
-
+	
+	
 	.navMenu .socials {
 		margin: 0px;
 	}

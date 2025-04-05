@@ -50,7 +50,7 @@ div {
 	background-image: linear-gradient(45deg, #AD49E1, #7A1CAC ,#792e97,#AD49E1, #7A1CAC ,#792e97);
 	box-shadow:  0 0 20px 5px #021e005d;
 	max-width: 1800px;
-	padding: 0 40px;
+	padding: 0 30px;
 	animation: moveGradient 3s ease-in-out infinite alternate;
 	color: #FFFFFF;
 	font-weight: 500;
@@ -117,10 +117,10 @@ div {
 
 .socials li a {
 	margin: 8px;
-	padding: 8px 12px;
+	padding: 8px 10px;
     border: 1px solid #ebd3f83b;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 12px;
     background: #7A1CAC;
 }
 
@@ -233,11 +233,6 @@ h1 span {
 
 }
 
-#myName::after {
-	content: " 🇵🇭";
-	font-size: 22px;
-}
-
 .myPicture {
 	background-color: #AD49E1;
 	border-radius: 150px;
@@ -248,6 +243,7 @@ h1 span {
 
 .myPictureContainer {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	position: relative;
@@ -255,7 +251,43 @@ h1 span {
 	height: 150px;
 	margin: auto;
 }
-.myPictureContainer::after {
+
+.status {
+	position: absolute;
+	top: -15px;
+	right:-30px;
+	background-color: #2E073F;
+	padding: 6px 12px 8px 8px;
+	border-radius: 20px;
+	font-size: 12px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.pingStatus {
+	position: relative;
+	padding: 1px 0;
+}
+.pingStatus::before {
+	content: '';
+	border: 1px solid yellow;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	border-radius: 20px;
+	transform: scale(0);
+	animation: borderExpand 1s ease-in-out infinite;
+}
+
+@keyframes borderExpand {
+	0, 100% {
+	  transform: scale(0);
+	  opacity: 0;
+	}
+	50% {
+	  transform: scale(1);
+	  opacity: 1;
+	}
+  }
+/* .myPictureContainer::after {
 	content:"🟡 Available";
 	position: absolute;
 	top: -15px;
@@ -266,7 +298,7 @@ h1 span {
 	font-size: 12px;
 	font-family: "Montserrat", sans-serif;
 	
-}
+} */
 
 
 .myProfileBanner ul li {
@@ -311,7 +343,7 @@ h1 span {
 .services {
 	text-align: center;
 	padding: 15px;
-	border: 1px solid #2e073f0c;
+	border: 1px solid #2e073f24;
 	border-radius: 10px;
 	width: 90%;
 	background-color: #ac49e10f;

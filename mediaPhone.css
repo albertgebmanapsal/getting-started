@@ -1,6 +1,17 @@
 @media only screen and (max-width:767px) {
 	
 	/* START Navigation Bar */ 
+	.menu {
+		display: none;
+	}
+
+	.navMenu .menuHamburger {
+		display:block;
+		float: left;
+        font-size: 40px;
+		margin: 12px;
+		border-radius: 8px;
+	}
 	.navMenu {
 		padding: 10px;
 
