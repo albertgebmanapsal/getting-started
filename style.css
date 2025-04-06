@@ -145,11 +145,10 @@ div {
 .greetings {
 	display: flex;
 	gap: 10px;
-	font-size: 2rem;
   }
 
   .bounce {
-	font-size: 2.0rem;
+	font-size: 3.0rem;
 	font-weight: 800;
 	font-family: "Montserrat", sans-serif;
 	background: linear-gradient(to right, #EBD3F8, #AD49E1 ,#EBD3F8);
@@ -158,7 +157,7 @@ div {
 	-webkit-text-fill-color: transparent;
 	background-clip: text; /* For Firefox */
 	color: transparent;
-	margin-bottom: -20px;
+	margin-bottom: -10px;
   
 }
 
@@ -204,7 +203,7 @@ div {
 /* Above The Fold TOP Content */
 
 h1 {
-	font-size: 42px;
+	font-size: 2.6rem;
 	line-height: 1.4;
 	font-weight: 900;
 }
@@ -250,13 +249,12 @@ h1 span {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	background-color: #7a1cace7;
-	border:1px solid #ebd3f82f;
+	background-color: #4B0F69;
 	border-radius: 12px;
 	padding: 30px 30px 20px 30px;
 }
 #myName {
-	font-size: 18px !important;
+	font-size: 1.5rem;
 	font-weight: 600;
 	padding: 0;
 	margin: 10px 0 -10px 40px;
@@ -329,6 +327,7 @@ h1 span {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	width: ;
 }
 
 
@@ -347,7 +346,7 @@ h1 span {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto;
 	gap: 0;
-	fill: #ebd3f865;
+	fill: #F7EEFC;
 	transform: scale(3);
 	position: absolute;
 	top: 10%;
@@ -359,7 +358,7 @@ h1 span {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	gap: 0;
-	fill: #ebd3f84d;
+	fill: #F7EEFC;
 	transform: scale(3);
 	position: absolute;
 	bottom: 15%;
@@ -415,7 +414,7 @@ h1 span {
 h2 {
 	color: #2E073F;
 	text-align: center;
-	font-size:	 48px;
+	font-size:	 4rem;
 	line-height: 1.4;
 	font-weight: 900;
 	margin: 0;
