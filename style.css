@@ -139,7 +139,6 @@ div {
 	background-repeat: no-repeat;
 	background-attachment: scroll, fixed;
 	padding: 100px 40px 0 40px;
-	overflow-x: hidden;
 }
 
 .aboveTheFoldContent {
