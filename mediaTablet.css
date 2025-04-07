@@ -104,35 +104,7 @@
 }
 
 @media only screen and (max-width:992px) {
-	.aboveTheFoldContainer {
-		min-height: 1600px;
-	}
-	.aboveTheFoldContent {
-		flex-direction: column;
-	}
-	.profileDescription {
-		width: 100%;
-	}
-	.projectPreviews {
-		width: 100%;
-	}
-
-	.imageDesktopView {
-		bottom: -440px;
-	}
-	.imageMobileView {
-		left: 50px;
-		bottom: -390px;
-	}
 	
-	.imageDesktopCarouselView {
-		left: 0;
-		right: 0;
-		bottom: -800px;
-	}
-	.imageDesktopCarouselView img {
-		width: 100%;
-	}
 	.menu {
 		display: none;
 	}
