@@ -106,7 +106,7 @@
 @media only screen and (max-width:992px) {
 	.aboveTheFoldContainer {
 		min-height: 1600px;
-		overflow-hidden;
+		overflow:hidden;
 	}
 	.aboveTheFoldContent {
 		flex-direction: column;
