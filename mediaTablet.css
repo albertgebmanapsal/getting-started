@@ -25,14 +25,18 @@
 		width: 250px;
 		height: 250px;
 	}
-
-
+	
 	
 }
 
 @media only screen and (min-width: 1024px) {
 
 /* My Services */
+
+	#mySVG {
+		transform: translate(0, 270px) scale(0.8);
+		margin: 0;
+	}
 
 	.services-container img {
 		top: 38%;
@@ -49,7 +53,7 @@
 	.serv1 {
 		top: 25%;
 		left: 25%;
-		transform: translate(-35%, -25%);
+		transform: translate(-40%, 0%);
 		border-radius: 32px 12px 32px 12px;
 		box-shadow: -20px -20px 20px 15px #410d550e;
 	
@@ -58,7 +62,7 @@
 	.serv2 {
 		top: 55%;
 		left: 25%;
-		transform: translate(-75%, -55%);
+		transform: translate(-75%, -35%);
 		border-radius: 32px 12px 32px 12px;
 		box-shadow: -35px 0px 20px 25px #410d5509;
 	
@@ -67,7 +71,7 @@
 	.serv3 {
 		bottom: 25%;
 		left: 25%;
-		transform: translate(-35%, 75%);
+		transform: translate(-40%, 100%);
 		border-radius: 32px 12px 32px 12px;
 		box-shadow: -20px 20px 20px 15px #410d5509;
 	
@@ -77,7 +81,7 @@
 	.serv4 {
 		top: 25%;
 		right: 25%;
-		transform: translate(35%, -25%);
+		transform: translate(40%, 0%);
 		border-radius: 12px 32px 12px 32px;
 		box-shadow: 20px -20px 20px 15px #410d5509;
 	
@@ -87,7 +91,7 @@
 	.serv5 {
 		top: 55%;
 		right: 25%;
-		transform: translate(75%, -55%);
+		transform: translate(75%, -35%);
 		border-radius: 12px 32px 12px 32px;
 		box-shadow: 35px 0px 20px 25px #410d5509;
 	
@@ -96,7 +100,7 @@
 	.serv6 {
 		bottom: 25%;
 		right: 25%;
-		transform: translate( 35%, 75%);
+		transform: translate( 40%, 100%);
 		border-radius: 12px 32px 12px 32px;
 		box-shadow: 20px 20px 20px 15px #410d5509;
 	

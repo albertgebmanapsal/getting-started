@@ -1,4 +1,4 @@
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
 	
 	/* START Navigation Bar */ 
 	
@@ -16,8 +16,24 @@
 	}
 	/* END Navigation Bar */ 
 
-	/* Work Experience */
+	.aboveTheFoldContent {
+		flex-direction: column;
+	}
 
+	.profileDescription{
+		width: 100%;
+	}
+
+	.projectPreviews {
+		width: 100%;
+		margin-top: 0;
+
+	}
+	.myProfileBanner {
+		padding: 40px 0 0 0;
+	}
+	/* Work Experience */
+	
 	.upwork {
 		width: 100%;
 		flex-direction: column-reverse;
@@ -31,6 +47,7 @@
 		grid-column-start: 1;
 		grid-column-end: 4;
 	}
+
 	
 }
 
