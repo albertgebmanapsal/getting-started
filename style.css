@@ -57,7 +57,7 @@ div {
 	padding: 10px 30px;
 	animation: expandMenu 3s ease-in-out infinite alternate;
 	font-weight: 500;
-	margin-top: 5px;
+	margin: 5px;
 	border:1px solid #AD49E1;
 }
 
